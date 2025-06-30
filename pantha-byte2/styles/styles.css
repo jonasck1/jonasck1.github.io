@@ -1,0 +1,238 @@
+/*Reset & Fonts*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    bottom: linear-gradient(to bottom right,#202447, #200339);
+    line-height: 1.6;
+}
+ul{
+    text-align: right;
+}
+/*Container for the logo*/
+.logo-container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: none;
+    padding: 20px;
+    text-align: left;
+}
+/*logo image Style*/
+.logo{
+    width: auto;
+    height: 200px;
+}
+/*Hero*/
+.hero{
+    background: linear-gradient(135deg, #320f7d, #115e6d, rgb(4, 80, 35));
+    padding: 4rem 2rem;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.pantha-byte{
+    width: 100%;
+    border-radius: 5%;
+}
+
+.heading{
+    background-color: none;
+    width: 100%;
+    height: 200px;
+    font-size: 2em;
+    color: none;
+    display: block;
+}
+
+heading-content{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-content h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.hero-content p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.buttons .btn{
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    background: none;
+    color: white;
+    text-decoration: none;
+    margin: 0.05rem;
+}
+.hero-img{
+    width: 100%;
+    max-width: 600px;
+    margin-top: 2rem;
+}
+
+/*Feature Section*/
+.feature{
+    display:flex;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.feature-card{
+    background: none;
+    border-radius: 30px;
+    gap: 30%;
+    display: flex;
+    padding: 0.1rem;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.feature-card img{
+    width: 50%;
+    max-width: 1000px;
+    height: auto;
+    max-height: 1000px;
+    border-radius: 30px;
+    margin-bottom: 0.1rem;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    margin: 0 1rem;
+    background-color: none;
+    border-radius: 30px;
+    width: 10%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+ul li:hover{
+    color: #341c7d;
+}
+ul li button{
+    background-color: transparent;
+    border: 2px;
+    color: turquoise;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5rem 1.5rems;
+    transition: all 0.3s ease;
+    border-radius: 999px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    transition: all 6s ease;
+    background-image: linear-gradient(to bottom right, blue, rgb(0, 128, 90));
+}
+
+li a:hover{
+    background-image: linear-gradient(to bottom right, rgb(0, 128, 90), blue);
+}
+.feather-card h2{
+    font-size: 10em;
+}
+
+.feather-card p{
+    font-size: 10em;
+    color: black;
+}
+
+.image-container{
+    background-color: none;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay{
+    background-color: green;
+    border-radius: 30px;
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    height: 0%;  
+    max-height: 125px;
+    width: 100%;
+    max-width: 250px;
+    opacity: 1;
+    transition: 0.5s ease;
+    z-index: 99;
+}
+
+.image-container:hover .overlay{
+    height: 100%;
+    opacity: 0.2;
+}
+
+li{
+    background-color: none;
+    padding: 0.1rem;
+    color: white;
+    width: 15%;
+}
+
+section{
+    padding: 1rem;
+    background-color: none;
+}
+
+/*Footer*/
+footer{
+    padding: 2rem;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgba(33, 17, 86, 0.4)
+}
+
+.buttons{
+    content: '';
+    position: center;
+    height: 60%;
+    width: 40%;
+    border-radius: 60px;
+    background-image: linear-gradient(to bottom right, blue, rgb(0, 128, 90));
+    z-index: 1;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.button-container{
+    padding: 1rem;
+    color: white;
+    background-color: none;
+    display: flex;
+    gap: 5%;
+    z-index: 0;
+}
+
+.btn-Get started{
+    background-color: #200339;
+    color: blue,rgb(0, 128, 90);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;         
+    text-decoration: none;
+    transition: background-color 0.3s ease
+}
